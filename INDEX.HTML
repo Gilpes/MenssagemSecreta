@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem Secreta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./assets/Logo.png" alt="Logo">
+    </header>
+    <main class="criptografador">
+        <section class="criptografadorinsira-texto">
+        <h1 class="criptografadortextodigite">Digite seu texto</h1>
+        <textarea id="texto" class="criptografadortextodigite-campo"></textarea>
+        <div class="criptografadorasterisco">
+            <img src="./assets/exclamacao.png" alt="excalamção">
+            <p class="criptografadorinsira-textonota">Apenas letras minúsculas e sem acento.</p>
+        </div>
+            <div class="criptografadorespaco-botao">
+                <button class="criptografadorbotao">Criptografar</button>
+                <button class="descriptografadorbotao">Descriptografar</button>
+            </div>
+        </section>
+        <section class="criptografadordescriptografador">
+            <textarea id="texto2" class="criptografadordescriptografadorarea" readonly> </textarea>
+         <button class="criptografadordescriptografadocopiar" onclick="copiar()">Copiar</button>
+
+        </section>
+    </main> 
+    <footer>
+
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
